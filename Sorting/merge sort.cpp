@@ -3,7 +3,7 @@ using namespace std;
 
 
 void MergeSort(int arr[],int low,int high){
-    if(low<high){
+    if(low<high){//this condition must be to ensure program doesn't have any runtime error
         int mid = (low+high)/2;
 
         MergeSort(arr,low,mid);
